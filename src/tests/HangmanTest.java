@@ -154,7 +154,7 @@ public class HangmanTest {
             }
         }
 
-        assertTrue(game.isAlive());
+        assertFalse(game.isAlive());
     }
 
     // implement a test which test if we can win
